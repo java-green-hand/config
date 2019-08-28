@@ -37,6 +37,12 @@ hystrix:
           thread:
             timeoutInMilliseconds: 500
             
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+            
             
             
             
